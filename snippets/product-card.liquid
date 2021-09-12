@@ -124,4 +124,9 @@
       </div>
     </div>
   </a>
+  <div class="card-information__tags h5">
+    {% for tag in product_card_product.tags %}
+      <span class="card-information__tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
 </div>
