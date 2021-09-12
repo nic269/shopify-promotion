@@ -177,6 +177,19 @@ cart-remove-button .icon-remove {
   margin: 0;
 }
 
+.product-option__discount {
+  display: flex;
+}
+
+.product-option__discount > dt {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.product-option__discount > dd {
+  text-transform: uppercase;
+}
+
 .cart-items thead th {
   text-transform: uppercase;
 }

@@ -167,6 +167,20 @@
   padding-right: 1.2rem;
 }
 
+.card-information__tags {
+  padding-top: 4px;
+}
+
+.card-information__tag {
+  background: #000;
+  padding: 4px 7px;
+  border-radius: 4px;
+  margin-right: 6px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 6px;
+}
+
 .card-information__wrapper {
   width: 100%;
 }
